@@ -28,20 +28,9 @@ october   = new TimeUnit getUnits(day, 31), 'October'
 november  = new TimeUnit getUnits(day, 30), 'November'
 december  = new TimeUnit getUnits(day, 31), 'December'
 
-year      = new TimeUnit [
-  january,
-  february,
-  march,
-  april,
-  may
-  june,
-  july,
-  august,
-  september,
-  october,
-  november,
-  december
-], null
+year      = new TimeUnit [january, february, march, april,
+                          may, june, july, august,
+                          september, october, november, december], null
 
 decade    = new TimeUnit getUnits(year, 10), null
 century   = new TimeUnit getUnits(decade, 10), null
